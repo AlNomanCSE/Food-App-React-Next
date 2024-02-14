@@ -2,6 +2,7 @@ import React from "react";
 // import Animation from "@/components/HomeHeader";
 import style from "./page.module.css";
 import ImageSlideShow from "@/components/ImageSlideShow";
+import Link from "next/link";
 const page = ({}) => {
   return (
     <>
@@ -57,9 +58,15 @@ const page = ({}) => {
               fontSize: "1.7rem",
             }}
           >
-            <div className={style.joinCommunityText}>join the community</div>
+            <div
+              className={style.joinCommunityText}
+            >
+              <Link href="/community">join the community</Link>
+            </div>
             <div>
-              <btn className={style.btn}>Explore Meals</btn>
+              <btn className={style.btn}>
+                <Link href="/meals">Explore Meals</Link>
+              </btn>
             </div>
           </div>
         </div>

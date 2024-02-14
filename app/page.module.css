@@ -7,9 +7,20 @@
     box-shadow: 0 6px 5px rgb(165, 165, 39);
     cursor: pointer;
 }
-.joinCommunityText{
+
+.joinCommunityText {
     color: #e99637;
     font-weight: 600;
     cursor: pointer;
     text-transform: capitalize;
+}
+
+.joinCommunityText a {
+    text-decoration: none;
+    color: #e99637;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
 }
