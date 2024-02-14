@@ -1,8 +1,11 @@
+
+
 import React from "react";
 // import Animation from "@/components/HomeHeader";
 import style from "./page.module.css";
 import ImageSlideShow from "@/components/ImageSlideShow";
 import Link from "next/link";
+
 const page = ({}) => {
   return (
     <>
@@ -58,9 +61,7 @@ const page = ({}) => {
               fontSize: "1.7rem",
             }}
           >
-            <div
-              className={style.joinCommunityText}
-            >
+            <div className={style.joinCommunityText}>
               <Link href="/community">join the community</Link>
             </div>
             <div>
