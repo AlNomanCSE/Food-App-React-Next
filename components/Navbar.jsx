@@ -1,12 +1,9 @@
-"use client";
-
 import React from "react";
 import style from "./Navbar.module.css";
-import Link from "next/link";
 import logo from "@/assets/logo.png";
-import { usePathname } from "next/navigation";
+import Link from "next/link";
+import NavLink from "@/components/NavLink";
 const Navbar = () => {
-  const path = usePathname();
   return (
     <div className={style.navbar}>
       <div className={style.navbarLogo}>
@@ -29,22 +26,10 @@ const Navbar = () => {
       <div>
         <ul className={style.navbarMenu}>
           <li>
-            <Link
-              href="/meals"
-              className={path.startsWith("/meals") ? style.active : undefined}
-            >
-              Meals
-            </Link>
+            <NavLink href="/meals">Meals</NavLink>
           </li>
           <li>
-            <Link
-              href="/community"
-              className={
-                path.startsWith("/community") ? style.active : undefined
-              }
-            >
-              Community
-            </Link>
+            <NavLink href="/community">Community</NavLink>
           </li>
         </ul>
       </div>

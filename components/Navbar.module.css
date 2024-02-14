@@ -25,22 +25,3 @@
     list-style-type: none;
 }
 
-.navbarMenu a {
-    text-decoration: none;
-    color: rgb(224, 202, 22);
-    font-weight: 600;
-    transition: all .2s;
-}
-
-.navbarMenu a:hover,
-.navbarMenu a:active {
-    color: rgb(126, 128, 18);
-    text-decoration: underline;
-}
-
-.active {
-    background: linear-gradient(90deg, #f9572a, #ff8a05);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}

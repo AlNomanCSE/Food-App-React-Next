@@ -1,5 +1,3 @@
-
-
 import React from "react";
 // import Animation from "@/components/HomeHeader";
 import style from "./page.module.css";
