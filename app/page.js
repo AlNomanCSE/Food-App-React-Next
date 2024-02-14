@@ -63,9 +63,9 @@ const page = ({}) => {
               <Link href="/community">join the community</Link>
             </div>
             <div>
-              <btn className={style.btn}>
+              <button className={style.btn}>
                 <Link href="/meals">Explore Meals</Link>
-              </btn>
+              </button>
             </div>
           </div>
         </div>
