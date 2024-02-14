@@ -1,6 +1,7 @@
 import React from "react";
-import Animation from "@/components/HomeHeader";
-import style from "./page.module.css"
+// import Animation from "@/components/HomeHeader";
+import style from "./page.module.css";
+import ImageSlideShow from "@/components/ImageSlideShow";
 const page = ({}) => {
   return (
     <>
@@ -9,6 +10,15 @@ const page = ({}) => {
       {/* </div> */}
 
       <div style={{ position: "relative" }}>
+        <div
+          style={{
+            position: "absolute",
+            left: "10vw",
+            top: "10vh",
+          }}
+        >
+          <ImageSlideShow />
+        </div>
         <div
           style={{
             position: "absolute",

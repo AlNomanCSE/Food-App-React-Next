@@ -19,7 +19,7 @@ const Navbar = () => {
             color: " rgb(224,202,22)",
           }}
         >
-          NextLevel Food
+          AnotherLevel Food
         </div>
       </div>
       <div>
