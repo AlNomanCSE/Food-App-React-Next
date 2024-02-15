@@ -4,7 +4,7 @@ import style from "./page.module.css";
 import ImageSlideShow from "@/components/ImageSlideShow";
 import Link from "next/link";
 
-const page = ({}) => {
+const page = () => {
   return (
     <>
       {/* <div style={{ fontSize: "10rem" }}> */}

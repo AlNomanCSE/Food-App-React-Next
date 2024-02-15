@@ -1,0 +1,28 @@
+.shareClass {
+    background: linear-gradient(90deg, rgba(172, 61, 10, 0.947) 0%,
+            rgb(226, 163, 26) 70%,
+            rgb(243, 198, 115) 100%);
+    width: 60%;
+    margin: 2rem 2rem;
+    height: 8vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    box-shadow: 0 0 5px 5px rgb(243, 131, 39);
+}
+
+.headTag {
+    background: linear-gradient(90deg, #f9572a, #ff8a05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.plainLink{
+    text-decoration: none;
+    color: #fff;
+}
