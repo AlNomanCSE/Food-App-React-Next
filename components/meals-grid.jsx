@@ -1,6 +1,8 @@
 import React from "react";
 import Meals from "./Meals";
 
+
+
 const MealsGrid = ({ meals }) => {
   return (
     <div

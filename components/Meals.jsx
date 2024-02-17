@@ -1,12 +1,25 @@
 import React from "react";
 import style from "./Meals.module.css";
-import Image from "next/image";
+
+import Link from "next/link";
+
 
 const Meals = ({ title, slug, image, summary, creator }) => {
   return (
     <>
       <div className={style.card}>
-        <Image src={image.src} className={style.image} alt="image" />
+        <img
+          src={image}
+          className={style.image}
+          alt="image"
+          style={{
+            width: "100%",
+            height: "70%",
+            backgroundColor: "red",
+            objectFit: "cover",
+          }}
+        />
+
         <div style={{ height: "50%", padding: ".8rem" }}>
           <div>
             <span
@@ -36,7 +49,12 @@ const Meals = ({ title, slug, image, summary, creator }) => {
               }}
               className={style.bgcolor}
             >
-              view details
+              <Link
+                href={`/meals/${slug}`}
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                view more
+              </Link>
             </span>
           </div>
         </div>

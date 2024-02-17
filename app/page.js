@@ -1,5 +1,5 @@
 import React from "react";
-// import Animation from "@/components/HomeHeader";
+
 import style from "./page.module.css";
 import ImageSlideShow from "@/components/ImageSlideShow";
 import Link from "next/link";
@@ -7,10 +7,6 @@ import Link from "next/link";
 const page = () => {
   return (
     <>
-      {/* <div style={{ fontSize: "10rem" }}> */}
-      {/* <Animation /> */}
-      {/* </div> */}
-
       <div style={{ position: "relative" }}>
         <div
           style={{
