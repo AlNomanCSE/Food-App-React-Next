@@ -1,21 +1,21 @@
 import React from "react";
 import style from "./Meals.module.css";
-
+import Image from "next/image";
 import Link from "next/link";
-
 
 const Meals = ({ title, slug, image, summary, creator }) => {
   return (
     <>
       <div className={style.card}>
-        <img
+        <Image
           src={image}
           className={style.image}
           alt="image"
+          width={400}
+          height={400}
           style={{
             width: "100%",
             height: "70%",
-            backgroundColor: "red",
             objectFit: "cover",
           }}
         />
